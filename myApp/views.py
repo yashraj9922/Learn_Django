@@ -1,3 +1,4 @@
+import time
 from django.shortcuts import render, HttpResponse
 from datetime import datetime
 from myApp.models import Contact
