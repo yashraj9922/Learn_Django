@@ -1,0 +1,2 @@
+This file is into a static file and anyone can see this .... make sure that you do not added any sensative data into 
+static folder/files that will led to hacking of your website
