@@ -1,7 +1,8 @@
 from django.db import models
 
-# makemigrations - create changes and store in a file 
+# makemigrations - create changes and store in a file
 # migrate - apply the pending changes created by makemigrations
+
 
 # Create your models here.
 class Contact(models.Model):
@@ -11,6 +12,6 @@ class Contact(models.Model):
     desc = models.TextField()
     date = models.DateField()
 
+    # to change default name of contact object
     def __str__(self):
         return self.name
-    

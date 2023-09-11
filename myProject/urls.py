@@ -20,8 +20,4 @@ admin.site.site_header = "Yash Ice Cream Admin"
 admin.site.site_title = "Yash Ice Cream Admin Portal"
 admin.site.index_title = "Welcome to Yash Ice Creams"
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('myApp.urls'))
-
-]
+urlpatterns = [path("admin/", admin.site.urls), path("", include("myApp.urls"))]
